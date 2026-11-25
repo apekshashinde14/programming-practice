@@ -28,7 +28,7 @@ while play_again:
             print("Too Low!!")
 
     while True:
-        choice = input("Do you want to play again ? (yes/no) : ").strip.lower()
+        choice = input("Do you want to play again ? (yes/no) : ").strip().lower()
         if choice == 'yes':
             break
         elif choice == 'no':
